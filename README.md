@@ -27,7 +27,9 @@ For easier frontend development this demo utilizes the LiveReload plugin (you ne
 **Running**
 
 Use `gulp watch` to run in continuous development mode with HapiJS & LiveReload.
+
 Use `npm start` to run the current version with HapiJS.
+
 Use `cargo run` to run with Nickel.rs.
 
 
