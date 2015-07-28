@@ -45,7 +45,7 @@ and JS frontend.
 
 **Templates**
 
-However, Nickel's *mustache*-templates are not as powerful as RactiveJS' mustaches are. For example, there's
+Despite some striking similarities Nickel's *mustache*-templates are not as powerful as RactiveJS' mustaches are. For example, there's
 no logic whatsoever. Also it's not possible to create some deeper template layers, like this:
 
 *main.tpl*
