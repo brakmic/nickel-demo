@@ -52,20 +52,20 @@ no logic whatsoever. Also it's not possible to create some deeper template layer
 
 ```html
 <html>
-{{> template1 }}
+{{> template1 }} <!--this is possible with Nickel.rs-->
 </html>
 ```
 
-*template1.tpl*    ---> this is possible with Nickel.rs
+*template1.tpl*
 
 ```html
 <template1>
 <div>data, data</div>
-{{> template2 }}
+{{> template2 }} <!--this is NOT possible. Use RactiveJS for such combinations.-->
 </template1>
 ```
 
-*template2.tpl*   ---> this is NOT possible. Use RactiveJS for such combinations.
+*template2.tpl*
 
 ```html
 <template2>
