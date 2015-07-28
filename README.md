@@ -10,6 +10,7 @@ JavaScript building is done either with Gulp or WebPack: `gulp all` or `webpack`
 
 *Important*
 
+Before using NodeJS you must install all dependencies with `npm i`.
 When building with Gulp/WebPack you must be in `src` where *Gulpfile.js* and *webpack.config.js* are.
 
 *LiveReload*
