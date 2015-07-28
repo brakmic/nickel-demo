@@ -8,6 +8,10 @@ The frontend part is based on JavaScript by using <a href="http://www.ractivejs.
 Rust sources are built with `cargo build`.
 JavaScript building is done either with Gulp or WebPack: `gulp all` or `webpack`
 
+*Important*
+
+When building with Gulp/WebPack you must be in `src/static` where *Gulpfile.js* and *webpack.config.js* are.
+
 *LiveReload*
 
 For easier frontend development this demo utilizes the LiveReload plugin (you need a separate plugin for your browser).
