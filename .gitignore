@@ -1,0 +1,4 @@
+target
+node_modules
+src/static/build
+src/static/release
