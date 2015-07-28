@@ -10,7 +10,7 @@ JavaScript building is done either with Gulp or WebPack: `gulp all` or `webpack`
 
 *Important*
 
-When building with Gulp/WebPack you must be in `src/static` where *Gulpfile.js* and *webpack.config.js* are.
+When building with Gulp/WebPack you must be in `src` where *Gulpfile.js* and *webpack.config.js* are.
 
 *LiveReload*
 
