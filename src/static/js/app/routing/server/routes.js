@@ -11,6 +11,16 @@ module.exports = [
     }
   },
   {
+      path: '/js/vendor/{files*}',
+      method: 'GET',
+      handler: {
+        directory: {
+            path: 'static/js/vendor',
+            listing: false
+        }
+    }
+  },
+  {
       path: '/css/{files*}',
       method: 'GET',
       handler: {
