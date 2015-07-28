@@ -10,7 +10,10 @@ JavaScript building is done either with Gulp or WebPack: `gulp all` or `webpack`
 
 *Important*
 
-Before using NodeJS you must install all dependencies with `npm i`.
+Before using NodeJS you must install all dependencies with `npm i`. Additionally, install
+Gulp as a globally available package with `npm i -g gulp`. If running Gulp produces errors of type `Error: watch ENOSPC` try
+running Gulp with `sudo gulp watch`.
+
 When building with Gulp/WebPack you must be in `src` where *Gulpfile.js* and *webpack.config.js* are.
 
 *LiveReload*
