@@ -1,4 +1,4 @@
-**WebApp with Rust, Nickel.rs & RactiveJS**
+**A demo WebApp with Rust, Nickel.rs & RactiveJS**
 
 This is a demo app written in Rust. It uses the <a href="http://nickel.rs/" target="_blank">Nickel.rs</a> web framework to create a simple web server.
 The frontend part is based on JavaScript by using <a href="http://www.ractivejs.org/" target="_blank">RactiveJS</a>, Bootstrap and Font Awesome.
