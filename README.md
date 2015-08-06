@@ -46,8 +46,10 @@ and JS frontend.
 **Templates**
 
 
-Despite some striking similarities Nickel's *mustache*-templates are not as powerful as RactiveJS' mustaches are. ~~For example, there's
-no logic whatsoever. Also it's not possible to create some deeper template layers, like this~~:
+Despite some striking similarities Nickel's *mustache*-templates are not as powerful as RactiveJS' mustaches are. For example, there's
+no logic whatsoever. 
+
+~~Also it's not possible to create some deeper template layers, like this~~:
 
 *Nickel.rs will support nested templates! See this thread for more info: https://github.com/nickel-org/rust-mustache/pull/19#issuecomment-128517804*
 
